@@ -1,5 +1,15 @@
-.infomation {
+.infomation1 {
+  justify-content: space-around;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: large;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.infomation2 {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  flex-wrap: wrap;
 }
