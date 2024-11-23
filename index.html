@@ -4,61 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1 id="myname">三河洋翔</h1>
-    <img src="" alt="" id="kao" />
-    <div class="infomation1">
-      <div class="items">
-        <h2 id="birthday" class="h2">生年月日</h2>
-        <p class="p">2005/11/7 Age:19</p>
-      </div>
-      <div class="items">
-        <h2 id="uni" class="h2">大学</h2>
-        <p class="p">明治大学 理工学部 情報科学科1年</p>
-      </div>
-      <div class="items">
-        <h2 id="from" class="h2">出身地</h2>
-        <div class="p">静岡県</div>
-        <span class="comment">「三河」なのに愛知じゃないのか...</span>
-      </div>
-    </div>
-    <div class="infomation2">
-      <div class="items">
-        <h2 id="hobby" class="h2">趣味</h2>
-        <div class="p">
-          <div>
-            <div class="bobby_item1">PCゲーム</div>
-            <span class="comment"
-              >中学2年の時に初めてPCで遊んでから病みつきになっちゃいました</span
-            >
-            <div class="hobby_item2">バレーボール</div>
-            <span class="comment"
-              >部活は高校で満足したので大学ではサークルで軽くやってます</span
-            >
-            <div class="hobby_item3">ネトフリ</div>
-            <span class="comment"
-              >最近面白かったのは葬送のフリーレン・カイジ</span
-            >
-          </div>
+    <div class="container">
+      <div class="infomation1">
+        <div id="item0" class="items">
+          <h2 class="heading">[名前:三河洋翔]</h2>
+        </div>
+        <div id="item1" class="items">
+          <h2 class="heading">[生年月日]</h2>
+        </div>
+        <div id="item2" class="items">
+          <h2 class="heading">[大学]</h2>
+        </div>
+        <div id="item3" class="items">
+          <h2 class="heading">[出身地]</h2>
+        </div>
+        <div id="item4" class="items">
+          <h2 class="heading">[趣味]</h2>
+        </div>
+        <div id="item5" class="items">
+          <h2 class="heading">[自慢]</h2>
         </div>
       </div>
-      <div class="items">
-        <h2 id="ziman" class="h2">自慢</h2>
-        <div class="p">
-          <ul>
-            <div class="boast_item">
-              <li>PCを自作!</li>
-              <p class="comment">勉強になったけどめっちゃ時間かかった !</p>
-            </div>
-            <div>
-              <li>Valorantでランクがイモータルに!</li>
-              <p class="comment">当時上位1.2%</p>
-            </div>
-          </ul>
+
+      <div class="infomation2">
+        <div id="content0" class="content hidden">
+          <img src="items\mikawa.jpg" alt="" width="70%" height="auto" />
+          <p>
+            初めまして！三河洋翔（ミカワ ヒロト）といいます。<br />
+            愛知の旧国名が苗字です!
+          </p>
+        </div>
+        <div id="content1" class="content hidden">
+          <img src="items\SAO.webp" alt="" width="80%" height="auto" />
+          <p>
+            誕生日は2005年11月7日です。<br />
+            この11月7日は、僕の好きなアニメの1つのソードアートオンラインというアニメで、
+            デスゲームがクリアされた日であり、僕のちょっとしたお気に入りです。
+          </p>
+        </div>
+        <div id="content2" class="content hidden">
+          <img src="items\meiji.png" alt="" />
+          <img src="items\meijiro.png" alt="" />
+          <p>
+            明治大学 理工学部 情報科学科に在籍中です。<br />
+            授業でプログラミングがあり、今のスクールと合わせていくつかの言語を同時進行でやってて
+            結構混ざったりすることがあったり、
+            ずっとパソコンでプログラム書くのが忙しかったりします。<br />
+            でも好きでやってるのでOKです!頑張ります!
+          </p>
+        </div>
+        <div id="content3" class="content hidden">
+          <img src="items\shizuoka.jpg" alt="" width="100%" height="auto" />
+          <p>
+            実は静岡県静岡市出身。「三河」なのに愛知全く関係ない変な人...<br />
+            って覚えてくれたらいいと思います。
+          </p>
+        </div>
+        <div id="content4" class="content hidden">
+          <img
+            src="items\V_Lockup_Horizontal_Pos_Red.png"
+            alt=""
+            width="33%"
+            height="auto"
+          />
+          <img src="items\zirou.jpg" alt="" width="33%" height="auto" />
+          <img src="items\sumabura.png" alt="" width="33%" height="auto" />
+          <p>
+            ゲームはが好きで、FPSをはじめとしたVarolant、スマブラなどの対戦ゲームが好きです!<br />
+            アニメも好きで最近ヒロアカを一気見しました!<br />
+            ちなみに推しは耳郎響香香です。
+          </p>
+        </div>
+        <div id="content5" class="content hidden">
+          <img src="items\芋.png" alt="" width="40%" height="auto" />
+          <img src="items\IMG_1130.jpg" alt="" width="40%" height="auto" />
+          <p>Varolantでイモータルランク（上位1.2%）になったことがあります!</p>
+          <p>
+            またPCを自作して作って使用しています!<br />
+            時間めっちゃかかったけど勉強にはなりました!
+          </p>
         </div>
       </div>
     </div>
