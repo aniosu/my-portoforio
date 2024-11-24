@@ -1,4 +1,3 @@
-// 各要素を取得
 const item1 = document.getElementById("item1");
 const item2 = document.getElementById("item2");
 const item3 = document.getElementById("item3");
@@ -12,7 +11,6 @@ const content3 = document.getElementById("content3");
 const content4 = document.getElementById("content4");
 const content5 = document.getElementById("content5");
 
-// 全てのコンテンツを非表示にする関数
 function hideAllContents() {
   content1.classList.remove("active");
   content2.classList.remove("active");
@@ -22,7 +20,6 @@ function hideAllContents() {
   content0.classList.remove("active");
 }
 
-// 各要素にクリックイベントを設定
 item1.onclick = function () {
   hideAllContents();
   content1.classList.add("active");
